@@ -6,21 +6,11 @@ const Menu = () => {
       <nav>
         <strong>categorias</strong>
         <ul className="Menu">
-          <li>
-            <a>Eletrônicos</a>
-          </li>
-          <li>
-            <a>Eletrodomésticos</a>
-          </li>
-          <li>
-            <a>Roupas</a>
-          </li>
-          <li>
-            <a>Livros</a>
-          </li>
-          <li>
-            <a>Casa</a>
-          </li>
+          <li>Eletrônicos</li>
+          <li>Eletrodomésticos</li>
+          <li>Roupas</li>
+          <li>Livros</li>
+          <li>Casa</li>
         </ul>
       </nav>
     </>
