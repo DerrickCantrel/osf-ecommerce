@@ -7,19 +7,19 @@ const Menu = () => {
         <strong>categorias</strong>
         <ul className="Menu">
           <li>
-            <a href="#">Eletrônicos</a>
+            <a>Eletrônicos</a>
           </li>
           <li>
-            <a href="#">Eletrodomésticos</a>
+            <a>Eletrodomésticos</a>
           </li>
           <li>
-            <a href="#">Roupas</a>
+            <a>Roupas</a>
           </li>
           <li>
-            <a href="#">Livros</a>
+            <a>Livros</a>
           </li>
           <li>
-            <a href="#">Casa</a>
+            <a>Casa</a>
           </li>
         </ul>
       </nav>
