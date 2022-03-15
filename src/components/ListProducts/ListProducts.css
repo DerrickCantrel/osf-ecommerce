@@ -1,0 +1,11 @@
+.listProduct {
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid blue;
+  max-width: 200px;
+}
+
+.listProduct img {
+  height: 200px;
+  width: 200px;
+}
