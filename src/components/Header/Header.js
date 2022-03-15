@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <header>
         <h1>OSF | E-commerce</h1>
-        <input placeholder="buscar"></input>
+        <input placeholder="Buscar..."></input>
       </header>
     </>
   )

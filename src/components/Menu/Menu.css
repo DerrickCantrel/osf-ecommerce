@@ -6,7 +6,7 @@ nav {
   padding-top: 10px;
   height: 400px;
 
-  font: 700 15px Archivo;
+  font: 400 15px Poppins;
 }
 
 nav strong {
@@ -32,9 +32,15 @@ nav ul li {
   width: 50%;
   margin: 5px;
   padding: 3px;
+  cursor: pointer;
 }
 
 nav ul li a {
   text-decoration: none;
   color: black;
+}
+
+nav ul li:hover {
+  color: darkblue;
+  transition: 0.5s;
 }

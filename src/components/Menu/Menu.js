@@ -4,7 +4,7 @@ const Menu = () => {
   return (
     <>
       <nav>
-        <strong>categorias</strong>
+        <strong>Categorias</strong>
         <ul className="Menu">
           <li>Eletrônicos</li>
           <li>Eletrodomésticos</li>

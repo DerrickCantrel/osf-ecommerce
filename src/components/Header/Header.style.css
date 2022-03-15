@@ -8,13 +8,20 @@ header {
 header h1 {
   margin: 0;
   color: darkblue;
+  font-size: 50px;
+  font-family: 'Archivo', sans-serif;
 }
 
 header input {
   width: 30%;
   border-radius: 10px;
-  border: 1px solid darkblue;
+  border: 2px solid darkblue;
   outline: none;
+}
+
+header input:focus {
+  background-color: rgba(0, 0, 139, 0.1);
+  transition: 0.5s;
 }
 
 header input::placeholder {
