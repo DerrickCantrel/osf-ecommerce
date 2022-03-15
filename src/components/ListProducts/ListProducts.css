@@ -1,4 +1,8 @@
 .listProduct {
+  display: inline-block;
+}
+
+.Product {
   margin: 20px;
   padding: 5px;
   border: 1px solid blue;

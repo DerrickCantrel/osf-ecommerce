@@ -1,0 +1,40 @@
+nav {
+  display: inline-block;
+  background-color: rgba(132, 126, 161, 0.2);
+  border: 1px solid green;
+  max-width: 250px;
+  padding-top: 10px;
+  height: 400px;
+
+  font: 700 15px Archivo;
+}
+
+nav strong {
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.Menu {
+  width: 200px;
+  padding-top: 10px;
+  margin: 0px;
+}
+
+nav ul {
+  list-style: none;
+  position: relative;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  width: 50%;
+  margin: 5px;
+  padding: 3px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
