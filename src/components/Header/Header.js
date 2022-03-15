@@ -1,6 +1,5 @@
 import React from 'react'
 import './Header.style.css'
-import ControlPs5 from '../../assets/images/controle-ps5.jpg'
 
 const Header = () => {
   return (
