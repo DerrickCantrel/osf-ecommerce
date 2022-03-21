@@ -1,14 +1,12 @@
-import React from 'react'
-import './Header.style.css'
+import * as S from './Header.style.js'
 
 const Header = () => {
   return (
-    <>
-      <header>
-        <h1>OSF | E-commerce</h1>
-        <input placeholder="Buscar..."></input>
-      </header>
-    </>
+    <S.Header>
+      <S.Title>Soul Extreme</S.Title>
+      <S.Search placeholder="Busca" />
+      <S.Subtitle>A sua loja de artigos esportivos</S.Subtitle>
+    </S.Header>
   )
 }
 

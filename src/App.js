@@ -1,13 +1,17 @@
 import Header from './components/Header'
-import ListProduct from './components/ListProducts/ListProduct'
-import Menu from './components/Menu/Menu'
+import Product from './components/Product'
+import ListProducts from './components/ListProducts/ListProducts'
+import BagImage from './assets/images/controle-ps5.jpg'
+import { useState } from 'react'
+
+import ProductData from './mocks/produtos.json'
 
 function App() {
+  const [products, setProducts] = useState(ProductData)
   return (
     <>
       <Header />
-      <Menu />
-      <ListProduct />
+      <ListProducts products={products} />
     </>
   )
 }
