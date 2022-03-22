@@ -4,13 +4,15 @@ export const Header = styled.header({
   display: 'grid',
   gridTemplateColumns: '2fr 1fr',
   padding: '20px',
-  borderBottom: '2px solid gray'
+  borderBottom: '2px solid gray',
+  backgroundColor: '#0433ff'
 })
 
 export const Title = styled.h1({
   margin: 0,
-  color: 'darkblue',
-  fontFamily: 'Poppins'
+  color: '#f5f5f5',
+  fontFamily: 'Poppins',
+  backgroundColor: '#0433ff'
 })
 
 export const Search = styled.input({
@@ -25,5 +27,6 @@ export const Search = styled.input({
 
 export const Subtitle = styled.h4({
   fontFamily: 'sans-serif',
-  color: 'gray'
+  color: '#f5f5f5',
+  backgroundColor: '#0433ff'
 })

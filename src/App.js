@@ -8,7 +8,7 @@ import ProductData from './mocks/produtos.json'
 function App() {
   const [products, setProducts] = useState(ProductData)
   const [busca, setBusca] = useState('')
-  const [categorias, setCategorias] = useState('')
+  const [categorias] = useState('')
 
   useEffect(() => {
     setProducts(
@@ -22,8 +22,8 @@ function App() {
   return (
     <>
       <Header busca={busca} setBusca={setBusca} />
-      <ListProducts products={products} />
       <Menu />
+      <ListProducts products={products} />
     </>
   )
 }

@@ -1,12 +1,18 @@
 import styled from 'styled-components'
 
 export const Nav = styled.nav({
-  position: 'absolute',
-  border: '1px solid gray'
+  display: 'flex',
+  border: '1px solid gray',
+  marginTop: '5px',
+  marginLeft: '5px',
+  width: '150px',
+  backgroundColor: 'white'
 })
-
-export const Strong = styled.nav({})
 
 export const Li = styled.nav({})
 
-export const Ul = styled.nav({})
+export const Ul = styled.nav({
+  fontFamily: 'Poppins',
+  fontWeight: '400',
+  marginLeft: '10px'
+})
