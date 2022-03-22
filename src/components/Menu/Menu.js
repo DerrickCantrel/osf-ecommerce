@@ -3,7 +3,6 @@ import * as S from './Menu.style.js'
 
 const Menu = () => {
   return (
-    //eslint-disable-next-line no-empty-pattern
     <>
       <S.Nav>
         <S.Ul>
