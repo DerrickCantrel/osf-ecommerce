@@ -1,13 +1,13 @@
-import * as S from './Product.style'
+import * as P from './Product.style'
 
 const Product = ({ name, description, image, price }) => {
   return (
-    <S.Product>
-      <p>{name}</p>
-      <p>{description}</p>
+    <P.Product>
+      <P.Title>{name}</P.Title>
+      <P.Description>{description}</P.Description>
       <img src={image} alt="imagem do produto" width="200px" height="200px" />
       <p>{price}</p>
-    </S.Product>
+    </P.Product>
   )
 }
 

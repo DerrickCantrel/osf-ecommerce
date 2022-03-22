@@ -9,7 +9,8 @@ export const Header = styled.header({
 
 export const Title = styled.h1({
   margin: 0,
-  color: 'darkblue'
+  color: 'darkblue',
+  fontFamily: 'Poppins'
 })
 
 export const Search = styled.input({
@@ -17,7 +18,8 @@ export const Search = styled.input({
   border: '1px solid gray',
 
   '::placeholder': {
-    color: 'darkblue'
+    color: 'darkblue',
+    padding: '10px'
   }
 })
 

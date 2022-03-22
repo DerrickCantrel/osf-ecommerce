@@ -5,7 +5,7 @@
     "description": "Tempo de carregamento: 3 horas Vida útil da bateria",
     "price": "R$ 49,90",
     "image": "/images/kit-luzes-bike.webp",
-    "categoria:": "acessorios"
+    "categoria": "acessorios"
   },
   {
     "id": "2",
@@ -13,7 +13,7 @@
     "description": "Regulável e Com Viseira 18 canais de ventilação, tela anti-insetoa",
     "price": "R$ 129,90",
     "image": "/images/capacete-tsw-raptor.webp",
-    "categoria:": "seguranca"
+    "categoria": "seguranca"
   },
   {
     "id": "3",
@@ -21,6 +21,6 @@
     "description": "Este é um tipo de ferramenta de reparo de bicicleta 16 em 1, multifuncional",
     "price": "R$ 69,90",
     "image": "/images/conjunto-ferramentas.webp",
-    "categoria:": "ferramentas"
+    "categoria": "ferramentas"
   }
 ]
