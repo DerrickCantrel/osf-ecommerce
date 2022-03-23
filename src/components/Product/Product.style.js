@@ -5,7 +5,7 @@ export const Product = styled.div({
   //padding: topo, left, right, bottom
   padding: '10px',
   maxWidth: '200px',
-  maxHeight: '350px',
+  maxHeight: '400px',
   backgroundColor: 'white'
 })
 
