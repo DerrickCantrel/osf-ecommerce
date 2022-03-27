@@ -30,5 +30,13 @@
     "price": "R$ 79,90",
     "image": "/images/camisa-ciclismo.webp",
     "categoria": "roupas"
+  },
+  {
+    "id": "5",
+    "name": "Produto 5",
+    "description": "Descrição do Produto 5",
+    "price": "R$ 89,90",
+    "image": "/images/camisa-ciclismo.webp",
+    "categoria": "roupas"
   }
 ]

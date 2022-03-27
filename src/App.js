@@ -8,7 +8,7 @@ import ProductData from './mocks/produtos.json'
 function App() {
   const [products, setProducts] = useState(ProductData)
   const [busca, setBusca] = useState('')
-  const [categorias] = useState('')
+  const [categorias, setCategorias] = useState('')
 
   useEffect(() => {
     setProducts(
