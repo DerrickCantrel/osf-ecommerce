@@ -11,7 +11,9 @@ export const ListProducts = styled.ul({
   style: 'none',
 
   li: {
+    display: 'flex',
     listStyle: 'none',
-    border: '1px solid darkblue'
+    border: '1px solid darkblue',
+    backgroundColor: 'white'
   }
 })

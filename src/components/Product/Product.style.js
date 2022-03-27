@@ -5,8 +5,7 @@ export const Product = styled.div({
   //padding: topo, left, right, bottom
   padding: '10px',
   maxWidth: '200px',
-  maxHeight: '400px',
-  backgroundColor: 'white'
+  maxHeight: '400px'
 })
 
 export const Title = styled.p({
