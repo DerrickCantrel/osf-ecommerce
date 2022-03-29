@@ -33,10 +33,10 @@
   },
   {
     "id": "5",
-    "name": "Produto 5",
-    "description": "Descrição do Produto 5",
-    "price": "R$ 89,90",
-    "image": "/images/camisa-ciclismo.webp",
+    "name": "Camisa Ciclismo Cannondale Avancini",
+    "description": "Camisa Ciclismo Bike Pro Tour Cannondale Avancini Brasil - GPX Sports",
+    "price": "R$ 99,90",
+    "image": "/images/camisa-ciclismo-cannondale.webp",
     "categoria": "roupas"
   }
 ]

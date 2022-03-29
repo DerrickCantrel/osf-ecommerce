@@ -7,6 +7,7 @@ const Product = ({ name, description, image, price }) => {
       <P.Description>{description}</P.Description>
       <P.Image src={image} alt="imagem do produto" width={200} height={200} />
       <P.Preco>{price}</P.Preco>
+      <P.ButtonHover type="button">Comprar</P.ButtonHover>
     </P.Product>
   )
 }

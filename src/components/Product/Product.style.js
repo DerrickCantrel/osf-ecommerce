@@ -5,8 +5,27 @@ export const Product = styled.div({
   //padding: topo, left, right, bottom
   padding: '10px',
   maxWidth: '200px',
-  maxHeight: '400px'
+  minHeight: '450px'
 })
+
+export const ButtonHover = styled.button`
+  border: none;
+  background-color: blue;
+  color: white;
+  margin: auto;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid blue;
+    background-color: white;
+    color: blue;
+  }
+`
 
 export const Title = styled.p({
   fontFamily: 'Archivo, sans-serif',
@@ -31,10 +50,9 @@ export const Image = styled.img({
 })
 
 export const Preco = styled.p({
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
   fontFamily: 'Archivo, sans-serif',
-  fontSize: '18px',
+  //top right bottom left
+  margin: '10px 0px 10px 50px',
+  fontSize: '22px',
   fontWeight: '700'
 })
