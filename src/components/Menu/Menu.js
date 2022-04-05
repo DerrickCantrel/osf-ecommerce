@@ -1,4 +1,3 @@
-//import './Menu.css'
 import * as S from './Menu.style.js'
 
 const Menu = ({ setBusca }) => {
@@ -7,29 +6,29 @@ const Menu = ({ setBusca }) => {
       <S.Nav>
         <S.Ul>
           <S.Li>
-            <a href="#todasCategorias" onClick={e => setBusca('')}>
+            <S.A href="#todasCategorias" onClick={e => setBusca('')}>
               Todas categorias
-            </a>
+            </S.A>
           </S.Li>
           <S.Li>
-            <a href="#acessorios" onClick={e => setBusca('acessorios')}>
+            <S.A href="#acessorios" onClick={e => setBusca('acessorios')}>
               Acessórios
-            </a>
+            </S.A>
           </S.Li>
           <S.Li>
-            <a href="#seguranca" onClick={e => setBusca('seguranca')}>
+            <S.A href="#seguranca" onClick={e => setBusca('seguranca')}>
               Segurança
-            </a>
+            </S.A>
           </S.Li>
           <S.Li>
-            <a href="#ferramentas" onClick={e => setBusca('ferramentas')}>
+            <S.A href="#ferramentas" onClick={e => setBusca('ferramentas')}>
               Ferramentas
-            </a>
+            </S.A>
           </S.Li>
           <S.Li>
-            <a href="#roupas" onClick={e => setBusca('roupas')}>
+            <S.A href="#roupas" onClick={e => setBusca('roupas')}>
               Roupas
-            </a>
+            </S.A>
           </S.Li>
         </S.Ul>
       </S.Nav>

@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react'
 
 import ProductData from './mocks/produtos.json'
 import CartShopping from './components/CartShopping'
+import CartContextProvider from './Context/CartContextProvider'
 
 function App() {
   const [products, setProducts] = useState(ProductData)
@@ -22,35 +23,25 @@ function App() {
   }, [busca, categorias])
 
   return (
-    <BrowserRouter>
-      <Header busca={busca} setBusca={setBusca} />
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Menu setBusca={setBusca} />
-              <ListProducts products={products} />
-            </>
-          }
-        />
-        <Route path="/CartShopping" element={<CartShopping />} />
-      </Routes>
-    </BrowserRouter>
+    <CartContextProvider>
+      <BrowserRouter>
+        <Header busca={busca} setBusca={setBusca} />
+
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Menu setBusca={setBusca} />
+                <ListProducts products={products} />
+              </>
+            }
+          />
+          <Route path="/CartShopping" element={<CartShopping />} />
+        </Routes>
+      </BrowserRouter>
+    </CartContextProvider>
   )
 }
 
 export default App
-
-/*
-return (
-    <BrowserRouter>
-      <Header busca={busca} setBusca={setBusca} />
-      <Menu setBusca={setBusca} />
-      <ListProducts products={products} />
-      <Routes>
-        <Route path="/cartShopping" element={<CartShopping />} />
-      </Routes>
-    </BrowserRouter>
-  )
-*/

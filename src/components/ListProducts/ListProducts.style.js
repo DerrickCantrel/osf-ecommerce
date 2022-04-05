@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ListProducts = styled.ul({
+export const Product = styled.ul({
   display: 'flex',
   justifyContent: 'flex-start',
   flexWrap: 'wrap',

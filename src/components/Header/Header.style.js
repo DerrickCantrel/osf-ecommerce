@@ -14,25 +14,39 @@ export const Title = styled.h1({
   color: '#f5f5f5',
   fontFamily: 'Poppins',
   backgroundColor: '#0433ff',
-  textDecoration: 'none',
-
-  link: {
-    textDecoration: 'none'
-  }
+  textDecorationLine: 'none'
 })
 
-export const Search = styled.input({
-  borderRadius: '8px',
-  border: '1px solid gray',
+export const Search = styled.input`
+  width: 50%;
+  border-radius: 8px;
+  border: 1px solid gray;
+  box-shadow: 0px 0px 2px red;
+  padding-left: 20px;
+  font-size: 16px;
+  margin-right: 5px;
+  margin-top: 5px;
+  transition: width 0.4s ease-in-out;
 
-  '::placeholder': {
-    color: 'darkblue',
-    padding: '10px'
+  &:focus {
+    outline: none;
+    box-shadow: 0px 0px 2px red;
+    width: 90%;
   }
-})
+
+  ::placeholder {
+    color: darkblue;
+    font-size: 16px;
+  }
+`
 
 export const Carrinho = styled(ShoppingCartOutline)`
   color: white;
+
+  &:hover {
+    color: darkblue;
+    transition: 0.5s;
+  }
 `
 
 export const Subtitle = styled.h4({

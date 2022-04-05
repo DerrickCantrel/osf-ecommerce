@@ -1,12 +1,23 @@
 import styled from 'styled-components'
 
-export const Product = styled.div({
-  margin: '0px',
-  //padding: topo, left, right, bottom
-  padding: '10px',
-  maxWidth: '200px',
-  minHeight: '450px'
-})
+export const Product = styled.div`
+  display: flex-grid;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 5px;
+  padding: 10px;
+  max-width: 200px;
+  min-height: 450px;
+  border: 1px solid darkblue;
+  background-color: white;
+
+  &:hover {
+    background-color: rgba(192, 192, 192, 0.1);
+    transition: 0.5s;
+  }
+`
 
 export const ButtonHover = styled.button`
   border: none;
@@ -21,7 +32,7 @@ export const ButtonHover = styled.button`
   cursor: pointer;
 
   &:hover {
-    border: 2px solid blue;
+    border: 1px solid blue;
     background-color: white;
     color: blue;
   }

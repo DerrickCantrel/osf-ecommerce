@@ -13,9 +13,7 @@ const Header = ({ setBusca }) => {
       </Link>
       <S.Search placeholder="Busca" onChange={e => setBusca(e.target.value)} />
       <Link to="CartShopping">
-        <S.Carrinho>
-          <strong>Meu Carrinho</strong>
-        </S.Carrinho>
+        <S.Carrinho />
       </Link>
       <S.Subtitle>A sua loja de artigos esportivos</S.Subtitle>
     </S.Header>
