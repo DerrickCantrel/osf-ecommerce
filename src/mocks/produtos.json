@@ -5,7 +5,8 @@
     "description": "Tempo de carregamento: 3 horas Vida útil da bateria",
     "price": "R$ 49,90",
     "image": "/images/kit-luzes-bike.webp",
-    "categoria": "acessorios"
+    "categoria": "acessorios",
+    "qtd": 3
   },
   {
     "id": "2",
@@ -13,7 +14,8 @@
     "description": "Regulável e Com Viseira 18 canais de ventilação, tela anti-insetoa",
     "price": "R$ 129,90",
     "image": "/images/capacete-tsw-raptor.webp",
-    "categoria": "seguranca"
+    "categoria": "seguranca",
+    "qtd": 3
   },
   {
     "id": "3",
@@ -21,7 +23,8 @@
     "description": "Este é um tipo de ferramenta de reparo de bicicleta 16 em 1, multifuncional",
     "price": "R$ 69,90",
     "image": "/images/conjunto-ferramentas.webp",
-    "categoria": "ferramentas"
+    "categoria": "ferramentas",
+    "qtd": 3
   },
   {
     "id": "4",
@@ -29,7 +32,8 @@
     "description": "Modelo Trek Segafredo para uso em Mountain Bike, Speed e lazer",
     "price": "R$ 79,90",
     "image": "/images/camisa-ciclismo.webp",
-    "categoria": "roupas"
+    "categoria": "roupas",
+    "qtd": 3
   },
   {
     "id": "5",
@@ -37,6 +41,7 @@
     "description": "Camisa Ciclismo Bike Pro Tour Cannondale Avancini Brasil - GPX Sports",
     "price": "R$ 99,90",
     "image": "/images/camisa-ciclismo-cannondale.webp",
-    "categoria": "roupas"
+    "categoria": "roupas",
+    "qtd": 3
   }
 ]
