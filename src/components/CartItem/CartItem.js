@@ -7,17 +7,17 @@ const CartItem = () => {
     useContext(AuthContext)
 
   return cart.map(cartItem => (
-    <>
+    <S.Ul>
       <S.Li>
         <S.H2>{cartItem.name}</S.H2>
-        <S.H3>{cartItem.price}</S.H3>
-        <S.Botao onClick={() => handleAddItemToCart(cartItem)}>+</S.Botao>
-        {setQtdCart}
-        <S.Botao onClick={() => handleRemoveItemFromCart(cartItem.id)}>
+        <S.Botao1 onClick={() => handleAddItemToCart(cartItem)}>+</S.Botao1>
+        {setQtdCart}0
+        <S.Botao2 onClick={() => handleRemoveItemFromCart(cartItem.id)}>
           -
-        </S.Botao>
+        </S.Botao2>
+        <S.H3>R$ {cartItem.price}</S.H3>
       </S.Li>
-    </>
+    </S.Ul>
   ))
 }
 

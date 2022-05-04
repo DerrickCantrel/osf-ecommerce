@@ -10,11 +10,10 @@ export const Product = styled.div`
   padding: 10px;
   max-width: 200px;
   min-height: 450px;
-  border: 1px solid darkblue;
   background-color: white;
+  box-shadow: 0 0 10px grey;
 
   &:hover {
-    background-color: rgba(192, 192, 192, 0.1);
     transition: 0.5s;
   }
 `
@@ -32,9 +31,8 @@ export const ButtonHover = styled.button`
   cursor: pointer;
 
   &:hover {
-    border: 1px solid blue;
-    background-color: white;
-    color: blue;
+    background-color: darkblue;
+    transition: 0.5s;
   }
 `
 

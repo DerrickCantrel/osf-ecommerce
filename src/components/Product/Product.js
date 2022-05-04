@@ -10,7 +10,7 @@ function Product({ id, name, description, image, price }) {
       <P.Title>{name}</P.Title>
       <P.Description>{description}</P.Description>
       <P.Image src={image} alt="imagem do produto" width={200} height={200} />
-      <P.Preco>{price}</P.Preco>
+      <P.Preco>R$ {price}</P.Preco>
 
       <P.ButtonHover
         type="button"
