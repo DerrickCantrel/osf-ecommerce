@@ -9,6 +9,7 @@ const ListProducts = ({ products }) => {
       description={product.description}
       price={product.price}
       image={product.image}
+      qtd={product.qtd}
     />
   ))
 }

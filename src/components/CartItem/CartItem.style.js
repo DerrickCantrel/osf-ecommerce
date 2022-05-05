@@ -3,13 +3,13 @@ import styled from 'styled-components'
 export const Ul = styled.ul`
   margin: 10px;
   padding: 10px;
-  width: 600px;
+
   border: 1px solid black;
 `
 
 export const Li = styled.li`
   background-color: white;
-  width: 90%;
+  width: 100%;
   height: 100%;
   min-width: 45%;
   min-height: 50px;
@@ -17,7 +17,6 @@ export const Li = styled.li`
   list-style-type: none;
   border-radius: 10px;
   box-shadow: 0 0 1em grey;
-  margin: 10px;
   display: inline-block;
   align-items: center;
   justify-content: center;

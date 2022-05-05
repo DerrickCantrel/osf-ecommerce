@@ -6,7 +6,7 @@
     "price": 49.90,
     "image": "/images/kit-luzes-bike.webp",
     "categoria": "acessorios",
-    "qtd": 3
+    "qtd": 0
   },
   {
     "id": "2",
@@ -15,7 +15,7 @@
     "price": 129.90,
     "image": "/images/capacete-tsw-raptor.webp",
     "categoria": "seguranca",
-    "qtd": 3
+    "qtd": 0
   },
   {
     "id": "3",
@@ -24,7 +24,7 @@
     "price": 69.90,
     "image": "/images/conjunto-ferramentas.webp",
     "categoria": "ferramentas",
-    "qtd": 3
+    "qtd": 0
   },
   {
     "id": "4",
@@ -33,7 +33,7 @@
     "price": 79.90,
     "image": "/images/camisa-ciclismo.webp",
     "categoria": "roupas",
-    "qtd": 3
+    "qtd": 0
   },
   {
     "id": "5",
@@ -42,6 +42,6 @@
     "price": 99.90,
     "image": "/images/camisa-ciclismo-cannondale.webp",
     "categoria": "roupas",
-    "qtd": 3
+    "qtd": 0
   }
 ]

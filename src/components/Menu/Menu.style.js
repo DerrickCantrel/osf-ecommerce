@@ -4,7 +4,6 @@ export const Nav = styled.nav`
   display: flex-grid;
   flex-direction: row;
   border: 1px solid gray;
-  margin-top: 5px;
   margin-left: 5px;
   padding: 5px;
   width: 150px;

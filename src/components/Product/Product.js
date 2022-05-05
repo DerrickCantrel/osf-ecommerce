@@ -2,7 +2,7 @@ import * as P from './Product.style'
 import React, { useContext } from 'react'
 import { AuthContext } from '../../Context/CartContextProvider'
 
-function Product({ id, name, description, image, price }) {
+function Product({ id, name, description, image, price, qtd }) {
   const { addProduct } = useContext(AuthContext)
 
   return (
@@ -10,7 +10,7 @@ function Product({ id, name, description, image, price }) {
       <P.Title>{name}</P.Title>
       <P.Description>{description}</P.Description>
       <P.Image src={image} alt="imagem do produto" width={200} height={200} />
-      <P.Preco>R$ {price}</P.Preco>
+      <P.Preco>R$ {price.toFixed(2)}</P.Preco>
 
       <P.ButtonHover
         type="button"
@@ -20,7 +20,8 @@ function Product({ id, name, description, image, price }) {
             name: name,
             description: description,
             price: price,
-            image: image
+            image: image,
+            qtd: qtd
           })
         }
       >
