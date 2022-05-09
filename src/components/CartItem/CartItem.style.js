@@ -3,8 +3,6 @@ import styled from 'styled-components'
 export const Ul = styled.ul`
   margin: 10px;
   padding: 10px;
-
-  border: 1px solid black;
 `
 
 export const Li = styled.li`

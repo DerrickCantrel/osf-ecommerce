@@ -12,14 +12,12 @@ export const Area = styled.div`
   width: 70%;
   display: inline-block;
   float: left;
-  border: 1px solid blue;
 `
 
 export const SubArea = styled.div`
   width: 28%;
   display: inline-block;
   float: right;
-  border: 1px solid blue;
 `
 
 export const Tittle2 = styled.h2`

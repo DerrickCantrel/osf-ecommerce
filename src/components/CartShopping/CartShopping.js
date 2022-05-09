@@ -7,7 +7,7 @@ import CartItem from '../CartItem/CartItem'
 import * as C from './CartShopping.style'
 
 const CartShopping = () => {
-  const { cart, clearCart, handleSumPrice } = useContext(AuthContext)
+  const { cart, cartPrice, clearCart, handleSumPrice } = useContext(AuthContext)
   console.log(cart)
   console.log(cart.length)
 
@@ -31,13 +31,12 @@ const CartShopping = () => {
       </C.Area>
       <C.SubArea>
         <C.Tittle1>RESUMO</C.Tittle1>
-        <C.Tittle4>SubTotal</C.Tittle4>
         <C.Resume>
           <C.Tittle3>TOTAL</C.Tittle3>
           {handleSumPrice === 0 ? (
             <C.Tittle3>A CALCULAR</C.Tittle3>
           ) : (
-            <C.Tittle3>R$ {handleSumPrice.toFixed(2)}</C.Tittle3>
+            <C.Tittle3>R$ {cartPrice.toFixed(2)}</C.Tittle3>
           )}
         </C.Resume>
       </C.SubArea>

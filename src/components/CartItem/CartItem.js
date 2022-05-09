@@ -11,7 +11,7 @@ const CartItem = () => {
       <S.Li>
         <S.H2>{cartItem.name}</S.H2>
         <S.Botao1 onClick={() => handleAddItemToCart(cartItem)}>+</S.Botao1>
-        {cart.length}
+        {cartItem.qtd}
         <S.Botao2 onClick={() => handleRemoveItemFromCart(cartItem)}>
           -
         </S.Botao2>
