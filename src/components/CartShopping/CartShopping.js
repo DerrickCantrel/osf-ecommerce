@@ -33,7 +33,7 @@ const CartShopping = () => {
         <C.Tittle1>RESUMO</C.Tittle1>
         <C.Resume>
           <C.Tittle3>TOTAL</C.Tittle3>
-          {handleSumPrice === 0 ? (
+          {cartPrice === 0 ? (
             <C.Tittle3>A CALCULAR</C.Tittle3>
           ) : (
             <C.Tittle3>R$ {cartPrice.toFixed(2)}</C.Tittle3>
